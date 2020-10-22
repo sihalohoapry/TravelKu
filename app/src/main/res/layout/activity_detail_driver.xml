@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteGrey"
+    android:orientation="vertical"
+    tools:context=".ui.home.daftar_driver.DetailDriverActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/data_diri"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_driver_detail" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/baner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/iv_driver_detail"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="@string/baner"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_nama_driver_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:maxLines="2"
+            android:text="@string/nama_user"
+            android:textColor="@color/colorwhite"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_driver_detail" />
+
+        <TextView
+            android:id="@+id/tv_user_level_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/user_level"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_driver_detail"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/shape_ractengle_rv_item_white"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19">
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/nama_trevel"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nama_travel"
+                android:layout_marginTop="6dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/alamat"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_nama_travel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/textView20"
+                android:fontFamily="@font/montserrat"
+                android:maxLines="2"
+                android:text="@string/nama_user"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_alamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_nama_travel"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/textView21"
+                android:fontFamily="@font/montserrat"
+                android:maxLines="3"
+                android:text="@string/alamat"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_sukses_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/kelengkapan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/shape_ractengle_rv_item_white"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sukses_tanggal">
+
+            <TextView
+                android:id="@+id/tv_sukses_jam"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sim"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_toEndOf="@+id/tv_sukses_jam"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ada"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_sukses_jam"
+                android:layout_marginTop="6dp"
+                android:text="@string/ktp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView26"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/textView27"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ada"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/kontak"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/shape_ractengle_rv_item_white"
+            android:padding="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView29">
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/no_telpon"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_no_telpon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/textView30"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/no_hp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView30"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/email"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_no_telpon"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/textView32"
+                android:fontFamily="@font/montserrat"
+                android:maxLines="2"
+                android:text="@string/email"
+                android:textSize="12dp" />
+
+            <Button
+                android:id="@+id/btn_hub_driver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="0dp"
+                android:background="@drawable/shape_ractengle_rv_item_grey"
+                android:text="@string/hubungi_driver"
+                android:textAllCaps="false" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

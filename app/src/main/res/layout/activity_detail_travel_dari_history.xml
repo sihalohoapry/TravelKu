@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhiteGrey"
+    android:orientation="vertical"
+    tools:context=".DetailTravelDariHistoryActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="@color/colorwhite"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView47">
+
+            <TextView
+                android:id="@+id/tv47"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/sim"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_sim"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/tv47"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ada"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_sim"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ktp"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_ktp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_sim"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView49"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ada"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_ktp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/nama"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_namadriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_ktp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView51"
+                android:fontFamily="@font/montserrat"
+                android:text="TextView"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/kelengkapan_driver"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout4" />
+
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="0dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/baner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/colorPrimary" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="60dp"
+            android:contentDescription="@string/baner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.568"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/tv_history__tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/informasi_keberangkatan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/shape_ractengle_rv_item_white"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_history__tanggal">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/berangkat_dari"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_berangkat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/textView18"
+                android:fontFamily="@font/montserrat"
+                android:maxLines="3"
+                android:text="@string/berngkat"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_berangkat"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/tujuan"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_tujuan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_berangkat"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView23"
+                android:fontFamily="@font/montserrat"
+                android:maxLines="3"
+                android:text="@string/tujuan"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_tujuan"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/tanggal_berangkat"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_tgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_tujuan"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView33"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/tanggal"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView33"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/jam_berangkat"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_jam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView33"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView33"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/jam"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_jam"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/harga"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_jam"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView37"
+                android:text="@string/harga" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/kelengkapan_mobil"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout3" />
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:background="@color/colorwhite"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView40">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/merek_mobil"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_merek_mobil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/textView41"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/merek_mobil"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_merek_mobil"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/stnk"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_stnk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_merek_mobil"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView43"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ada"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView43"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/no_polisi"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_bpkb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_detail_stnk"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/textView45"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/ada"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rv5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/shape_ractengle_rv_item_white"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout5">
+
+            <TextView
+                android:id="@+id/asd"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="12sp"
+                android:text="@string/status_penumpang"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_statuspenumpang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/asd"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/status_penumpang"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/shape_ractengle_rv_item_white"
+            android:padding="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv5">
+
+            <TextView
+                android:id="@+id/asd2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="12sp"
+                android:text="@string/status_travel"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_detail_status_travel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="0dp"
+                android:layout_toEndOf="@+id/asd2"
+                android:fontFamily="@font/montserrat"
+                android:text="@string/status_travel"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_hub_driver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginBottom="24dp"
+            android:text="@string/hub_driver"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_pesan" />
+
+        <Button
+            android:id="@+id/btn_pesan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/pesan"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv_penumpang_booking" />
+
+        <Button
+            android:id="@+id/btn_pesan2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="24dp"
+            android:text="@string/editStatus"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv_penumpang_booking" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_penumpang_booking"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/daftar_penumpang_booking"
+            android:textSize="14sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/relativeLayout6" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">TravelKu</string>
+    <string name="title_home">Home</string>
+    <string name="nik_kontrol">NIK kurang</string>
+    <string name="pass_kontrol">Masukan minimal 6 digit</string>
+
+    <string name="title_dashboard">History</string>
+    <string name="title_profile">Profile</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="lupa_password">Lupa Password?</string>
+    <string name="klik_disini">Klik Disini</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="ganti_password">Ganti Password</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="ganti_pass">Ganti Password</string>
+    <string name="masukkan_email_kamu">Masukkan Email Kamu</string>
+    <string name="baner">baner</string>
+    <string name="tidak_punya_akun">Tidak Punya Akun?</string>
+    <string name="penumpang">Penumpang</string>
+    <string name="buat_kesepakatan">Buat Kesepakatan</string>
+    <string name="buat_sebuah_kespakatan_harga_nuntuk_memilih_perjalanan_travel_mu">Buat sebuah kespakatan harga  untuk memilih perjalanan travel mu</string>
+    <string name="lanjutkan">Lanjutkan</string>
+    <string name="lewati">Lewati</string>
+    <string name="buat_titik_penjemputanmu">Buat Titik \nPenjemputanmu</string>
+    <string name="ajukan_titik_penjemputanmu_untuk_memudahkan_perjalanamu">Ajukan titik penjemputanmu \nuntuk memudahkan perjalanamu</string>
+    <string name="buat_lah_pengingat_agar_kamu_tidak_ketinggalan_mobil_travel_mu">Buat lah pengingatmu \nagar kamu tidak ketinggalan \nmobil travel mu</string>
+    <string name="mulai">Mulai</string>
+    <string name="nama">Nama</string>
+    <string name="nik">NIK</string>
+    <string name="alamat">Alamat</string>
+    <string name="no_hp">No HP</string>
+    <string name="driver">Driver</string>
+    <string name="nama_user">Nama User</string>
+    <string name="user_level">User Level</string>
+    <string name="daftar_travel">Daftar Travel</string>
+    <string name="daftar_driver">Daftar Driver</string>
+    <string name="logout">Logout</string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="history">History</string>
+    <string name="tujuan">Tujuan</string>
+    <string name="berngkat">Berngkat</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="tanggal_buat">Tanggal(contoh: 08/08/2020)</string>
+    <string name="detail_travel">Detail Travel</string>
+    <string name="berangkat_dari">Berangkat Dari..</string>
+    <string name="jam">Jam</string>
+    <string name="jam_buat">Jam(contoh: 08.00)</string>
+    <string name="harga">Harga</string>
+    <string name="harga1">Harga (Contoh 200.000)</string>
+    <string name="informasi_keberangkatan">Informasi Keberangkatan</string>
+    <string name="informasi_mobil">Informasi Mobil</string>
+    <string name="merek_mobil">Merek Mobil</string>
+    <string name="foto_stnk">Foto STNK</string>
+    <string name="foto_bpkb">Foto BPKB</string>
+    <string name="fotomobil">Foto Mobil</string>
+    <string name="simpan">Simpan</string>
+    <string name="upload_foto">Upload Foto</string>
+    <string name="daftar_driver_all">Daftar Driver</string>
+    <string name="cari_driver">Cari Driver..</string>
+    <string name="cari_travel_berdasarkan_tujuan">Cari Travel (Berdasarkan Tujuan)</string>
+    <string name="cari_penempang">Cari Penempang..</string>
+    <string name="daftar_penumpang">Daftar Penumpang</string>
+    <string name="data_diri">DATA DIRI</string>
+    <string name="kelengkapan">KELENGKAPAN</string>
+    <string name="sim">SIM</string>
+    <string name="ktp">KTP</string>
+    <string name="kontak">KONTAK</string>
+    <string name="no_telpon">No Telpon</string>
+    <string name="hubungi_driver">Hubungi Driver</string>
+    <string name="ada">Ada</string>
+    <string name="nama_trevel">Nama Trevel</string>
+    <string name="nama_trvel_ex_barokah_travel">Nama Trvel (ex: Barokah Travel)</string>
+    <string name="buat_jadwal_travel">Buat Jadwal Travel</string>
+    <string name="kelengkapan_mobil">Kelengkapan Mobil</string>
+    <string name="kelengkapan_driver">Kelengkapan Driver</string>
+    <string name="status_penumpang">Status Penumpang</string>
+    <string name="status_travel">Status Travel</string>
+    <string name="stnk">STNK</string>
+    <string name="bpkb">BPKB</string>
+    <string name="pesan">Pesan</string>
+    <string name="hub_driver">Hub Driver</string>
+    <string name="daftar_penumpang_booking">Penumpang Booking</string>
+    <string name="hapus">Hapus</string>
+    <string name="detail">Detail</string>
+
+    <string name="one_time_alarm">One Time Alarm</string>
+    <string name="alarm_date">Tanggal Alarm</string>
+    <string name="set_one_time_alarm">Set One Time Alarm</string>
+    <string name="alarm_message">Pesan Alarm</string>
+    <string name="repeating_alarm">Repeating Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm</string>
+    <string name="cancel_alarm">Batalkan Alarm</string>
+    <string name="alarm_time">Waktu Alarm</string>
+    <string name="buat_pengingat">Buat Pengingat</string>
+    <string name="buat_pesan_pengingat">Buat Pesan Pengingat</string>
+    <string name="batalkan_pengingat">Batalkan Pengingat</string>
+    <string name="tanggal_berangkat">Tanggal Berangkat</string>
+    <string name="jam_berangkat">Jam Berangkat</string>
+    <string name="selamat_kamu_sudah_booking_natas_nama">Selamat Kamu Sudah Booking \nAtas nama</string>
+    <string name="id_booking_mu">Id Booking Mu</string>
+    <string name="screenshot_untuk_bukti">ScreenShot untuk bukti bookingmu</string>
+    <string name="selamat_berpergian">Selamat Berpergian</string>
+    <string name="travel_berhasil_di_booking_nselamat_melakukan_perjalanan_ndan_hati_hati_di_jalan">Travel berhasil di Booking \nselamat melakukan perjalanan \ndan hati hati di jalan</string>
+    <string name="tidak_ada_akses_internet">Tidak Ada Koneksi</string>
+    <string name="untuk_mengakses_aplikasi_periksa_kembali_jaringan_internet_anda">Untuk mengakses aplikasi, \nPeriksa kembali jaringan internet anda.</string>
+    <string name="terhubung_kembali">Terhubung Kembali</string>
+    <string name="yeay_kamu_online_kembali_koneksi_internet_tersedia">Yeay, Kamu online kembali, koneksi internet tersedia</string>
+    <string name="lokasi_penjemputan">Lokasi Penjemputan</string>
+    <string name="hubungi_penumpang">Hubungi Penumpang</string>
+    <string name="id_booking">Id Booking</string>
+    <string name="edit">edit</string>
+    <string name="editStatus">Edit Status Travel</string>
+    <string name="informasi_mu">Informasi Saya</string>
+    <string name="ganti">Ganti</string>
+    <string name="masukkan_lokasi_penjemputanmu">Masukkan Lokasi Penjemputanmu...</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="username">Username</string>
+
+
+    <string-array name="status_penumpang">
+        <item>Silahkan diisi</item>
+        <item>Belum Penuh</item>
+        <item>Penuh</item>
+    </string-array>
+
+    <string-array name="status_travel">
+        <item>Silahkan diisi</item>
+        <item>Belum Berangkat</item>
+        <item>Sudah Berangkat</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="help">Help</string>
+    <string name="siap_membantumu_kapan_pun">Siap membantumu kapan pun</string>
+    <string name="booking_mobil_travel">Booking Mobil Travel?</string>
+    <string name="buat_jadwal_travel_">Buat Jadwal Travel?</string>
+    <string name="kesulitan_dalam_booking_mobil_travel_silahkan_klik_tanda_panah_disamping_kanan">Kesulitan dalam booking mobil travel? silahkan klik tanda panah disamping kanan.</string>
+    <string name="kesulitan_untuk_membuat_jadwal_travelmu_silahkan_klik_tanda_panah_di_samping_kanan">Kesulitan untuk membuat jadwal travelmu? silahkan klik tanda panah di samping kanan</string>
+    <string name="bantu_travelku_meningkatkan_aplikasi_ini_dengan_memberikan_masukanmu">Bantu Travelku meningkatkan aplikasi ini dengan memberikan masukanmu</string>
+    <string name="berikut_ini_langkah_langkahnya">Berikut ini langkah-langkahnya</string>
+    <string name="penumpang_memilih_mobil_travel_di_daftar_travel_lalu_klik_pada_daftar_yang_dipilih">Penumpang memilih mobil travel di daftar travel. Lalu klik pada daftar yang dipilih</string>
+    <string name="setelah_itu_tampil_halaman_detail_dari_mobil_travel_pilihanmu_jika_cocok_anda_bisa_terlebih_dahulu_hubungi_driver_untuk_konfirmasi">Setelah itu tampil halaman detail dari mobil travel pilihanmu. Jika cocok anda bisa terlebih dahulu hubungi driver untuk konfirmasi.</string>
+    <string name="jika_sudah_konfirmasi_dengan_driver_lalu_klik_pesan_sekarang_lalu_anda_diharuskan_untuk_mengisi_lokasi_penjemputan_anda">Jika sudah konfirmasi dengan driver, lalu klik pesan sekarang. Lalu anda diharuskan untuk mengisi lokasi penjemputan anda.</string>
+    <string name="anda_akan_mendapatkan_notifikasi_booking_sukses_klik_notifikasi_tersebut_dan_screnshoot_untuk_bukti_bookingan_anda">Anda akan mendapatkan notifikasi booking sukses. Klik notifikasi tersebut dan Screnshoot untuk bukti bookingan anda</string>
+    <string name="buat_jadwal_mobil_travel">Buat Jadwal Mobil Travel?</string>
+    <string name="pada_halaman_home_pada_halaman_paling_bawah_ada_tombol_buat_jadwal_travel_dan_klik">Pada halaman home, pada halaman paling bawah, ada tombol buat jadwal travel dan klik</string>
+    <string name="selanjutnya_akan_ada_halaman_buat_jadwal_lalu_anda_isi_semua_yang_ada_dengan_benar_lalu_klik_tombol_upload_foto">Selanjutnya akan ada halaman buat jadwal, lalu anda isi semua yang ada dengan benar lalu klik tombol upload foto</string>
+    <string name="setelah_upload_foto_selesai_lalu_klik_simpan">Setelah upload foto selesai lalu klik simpan</string>
+    <string name="selamat_anda_berhasil_memboking_mobil_travel_selanjutnya_anda_bisa_membuat_pengingat_keberangkatan_anda_klik_puat_pengingat">Selamat anda berhasil memboking mobil travel. Selanjutnya anda bisa membuat pengingat keberangkatan anda, klik puat pengingat.</string>
+    <string name="masukan_sarat_atau_masukanmu">Masukan sarat atau masukanmu</string>
+    <string name="chats">Chats</string>
+    <string name="tuliskan_pesanmu">Tuliskan Pesanmu...</string>
+    <string name="ini_pesan_ku">ini pesan ku</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="no_polisi">No Polisi</string>
+
+</resources>

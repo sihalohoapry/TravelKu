@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sihaloho.travelku">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".activity.ViewFullmageActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen"></activity>
+        <activity
+            android:name=".activity.MessageChatActivity"
+            android:label=""
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.help.CaraBuatJadwalActivity"
+            android:label="@string/help">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.help.CaraBookingActivity"
+            android:label="@string/help">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".DetailTravelDariHistoryActivity"
+            android:label="Detail jadwal">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.history.EditJadwalActivity"
+            android:label="@string/editStatus">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.profile.GantiFotoActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen" />
+        <activity
+            android:name=".ui.profile.EditProfileActivity"
+            android:label="Edit Profile">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activity.booking.DetailPenumpangBookingctivity"
+            android:label="Penumpang Booking">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activity.booking.SuksesActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen" />
+        <activity
+            android:name=".activity.booking.BookingSuksesActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen" />
+
+        <receiver
+            android:name=".activity.pengingat.AlarmReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".activity.pengingat.AlarmActivity"
+            android:label="Pengingat"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.history.HistoryPemesananActivity"
+            android:label="Detail"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.home.daftar_penumpang.DetailPenumpangActivity"
+            android:label="Detail Penumpang"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.home.daftar_penumpang.DaftarPenumpangAllActivity"
+            android:label="Daftar Penumpang"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.home.daftar_travel.SemuaDaftarTravelActivity"
+            android:label="@string/daftar_travel"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.home.daftar_travel.DetailTravelActivity"
+            android:label="Detail Travel"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.home.daftar_driver.SemuaDaftarDriverActivity"
+            android:label="@string/daftar_driver_all"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.home.daftar_driver.DetailDriverActivity"
+            android:label="Detail Driver"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity android:name=".activity.signin.SignUpDriverActivity"
+            android:label="@string/sign_up">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".ui.home.daftar_travel.BuatJadwalTravelActivity"
+            android:label="Buat Jadwal"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activity.onboarding.OnboardingThreeActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen" />
+        <activity
+            android:name=".activity.onboarding.OnboardingTwoActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen" />
+        <activity
+            android:name=".activity.onboarding.OnboardingOneActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen" />
+        <activity
+            android:name=".activity.signin.SplashScreenActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.signin.SignUpActivity"
+            android:label="@string/sign_up"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.signin.SplashScreenActivity" />
+        </activity>
+        <activity
+            android:name=".activity.signin.LoginActivity"
+            android:theme="@style/AppTheme.noactionbarfullscreen" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" /> <!-- <service -->
+        <!-- android:name=".notificationbooking.MyFirebaseMessaging" -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+        <!-- </intent-filter> -->
+        <!-- </service> -->
+        <service
+            android:name=".notificationChats.MyFirebaseMessagingChat"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".notificationbooking.MyFirebaseInstanceId"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1757230288277348~9499505018"/>
+    </application>
+
+</manifest>
